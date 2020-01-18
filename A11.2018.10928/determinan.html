@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html> 
+<body style="background-color:darkgray"> 
+
+<div style="text-align:center"> 
+<center><iframe width="784" height="419" src="https://www.youtube.com/embed/bH9Tnco11Jg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 1000; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 500; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 800; 
+} 
+</script> 
+
+</body> 
+</html>
